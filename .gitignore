@@ -1,0 +1,24 @@
+# PyInstaller Build Artifacts
+build/
+dist/
+*.spec
+*.zip
+
+# Local face models, captures, & configuration
+facelock_data/
+haarcascade_frontalface_default.xml
+haarcascade_eye.xml
+
+# Python bytecode & cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual Environments
+venv/
+.venv/
+env/
+
+# OS metadata files
+.DS_Store
+Thumbs.db
